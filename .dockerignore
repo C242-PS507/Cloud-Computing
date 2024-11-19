@@ -1,0 +1,27 @@
+# .dockerignore
+
+# Ignore node_modules
+node_modules
+
+# Ignore logs
+logs
+*.log
+
+# Ignore temporary files
+tmp
+temp
+
+# Ignore environment variable files
+.env
+
+# Ignore Dockerfile and docker-compose.yml for local builds
+Dockerfile
+docker-compose.yml
+
+# Ignore test files
+tests/
+
+.git
+*Dockerfile*
+*docker-compose*
+node_modules
