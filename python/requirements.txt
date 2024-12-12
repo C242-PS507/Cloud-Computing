@@ -6,3 +6,4 @@ opencv-python-headless
 mediapipe
 pillow
 google-cloud-storage
+python-dotenv
