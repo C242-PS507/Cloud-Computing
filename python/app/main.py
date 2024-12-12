@@ -1,10 +1,14 @@
 # app/main.py
+import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
 from fastapi import FastAPI, File, UploadFile
 import tensorflow as tf
 from utils import preprocess_image
 import numpy as np
 import os
 from dotenv import load_dotenv
+
 
 # Load environment variables from .env file
 load_dotenv()
