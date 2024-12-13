@@ -18,6 +18,10 @@ app = FastAPI(
     version="1.0.0"
 )
 
+@app.get("/")
+async def root():
+    return {"message": "Hello, this is the root from the API"}
+
 # Get the model path from the environment variable
 MODEL_PATH = os.getenv('MODEL_PATH', 'default_model_path')
 
