@@ -4,7 +4,7 @@ import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
-import tensorflow as tf
+# import tensorflow as tf
 from .utils import predict_image, class_names
 from dotenv import load_dotenv
 

@@ -6,3 +6,5 @@ mediapipe
 pillow
 google-cloud-storage
 python-dotenv
+google-cloud-firestore
+google-cloud-storage
